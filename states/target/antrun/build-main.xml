@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <zip destfile="E:\India\states\target/states.zip">
+    <zipfileset includes="lib/**" dir="E:\India\states\target"/>
+    <zipfileset includes="states.jar" dir="E:\India\states\target"/>
+    <zipfileset includes="readme.txt" dir="E:\India\states"/>
+  </zip>
+</target>
+</project>
